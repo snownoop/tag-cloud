@@ -1,0 +1,6 @@
+node_modules
+vendor
+css
+*.log
+.idea
+.DS_Store

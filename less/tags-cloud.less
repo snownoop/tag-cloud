@@ -1,0 +1,23 @@
+.tags-cloud {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 1000px;
+    .tag-item {
+        color: @tag-color;
+        cursor: pointer;
+        opacity: .5;
+        transition: opacity .5s;
+        &:nth-child(2n+1) {
+            align-self: flex-start;
+        }
+        &:nth-child(2n) {
+            align-self: flex-end;
+        }
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

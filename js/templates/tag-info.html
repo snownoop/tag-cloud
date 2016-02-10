@@ -1,0 +1,41 @@
+<% if(label) { %>
+    <div class="row">
+        <span class="label">Label: </span>
+        <span class="value"><%= label %></span>
+    </div>
+<% } %>
+
+<% if(totalSentiments) { %>
+    <div class="row">
+        <span class="label">Total Sentiments: </span>
+        <span class="value"><%= totalSentiments %></span>
+    </div>
+<% } %>
+
+<% if(negativeSentiments) { %>
+    <div class="row">
+        <span class="label">Negative Sentiments: </span>
+        <span class="value"><%= negativeSentiments %></span>
+    </div>
+<% } %>
+
+<% if(neutralSentiments) { %>
+    <div class="row">
+        <span class="label">Neutral Sentiments: </span>
+        <span class="value"><%= neutralSentiments %></span>
+    </div>
+<% } %>
+
+<% if(positiveSentiments) { %>
+    <div class="row">
+        <span class="label">Positive Sentiments: </span>
+        <span class="value"><%= positiveSentiments %></span>
+    </div>
+<% } %>
+
+<% if(pageTypes) { %>
+    <div class="row">
+        <span class="label">Pages Types: </span>
+        <span class="value"><%= pageTypes %></span>
+    </div>
+<% } %>
